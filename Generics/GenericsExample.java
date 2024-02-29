@@ -1,4 +1,3 @@
-// Generic class
 class Box<T> {
     private T value;
 
@@ -11,7 +10,6 @@ class Box<T> {
     }
 }
 
-// Generic method
 class GenericMethods {
     public static <E> void printArray(E[] array) {
         for (E element : array) {
